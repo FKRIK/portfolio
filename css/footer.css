@@ -1,0 +1,52 @@
+footer{
+    background-color: #010711;
+    font-family: Lato;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  background: url('../img/ornamento-1.svg') no-repeat top 80px right 20px;
+}
+
+.contato-texto{
+    color: #bbb;
+    font-size: 1.5rem;
+    max-width: 30ch;
+}
+
+.email-tel{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.redes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.redes-container p{
+    font-size: 1.5rem;
+    color: #9c9c9c;
+}
+
+.contato-redes{
+    display: flex;
+    gap: 40px;
+}
+
+@media(max-width: 600px){
+    .footer-container {
+        background: none;    
+    }
+}

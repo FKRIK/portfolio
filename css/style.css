@@ -1,0 +1,27 @@
+@import './header.css';
+@import './intro.css';
+@import './skills.css';
+@import './projetos.css';
+@import './exp.css';
+@import './form.css';
+@import './footer.css';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+
+/*
+---BREAKING POINTS
+1200
+995
+780
+600
+400
+*/

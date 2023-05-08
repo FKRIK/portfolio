@@ -1,0 +1,146 @@
+#formacao {
+  padding: 80px 20px 140px;
+  background-color: #020f26;
+}
+
+.formacao-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#formacao h2 {
+  font-family: Ubuntu;
+  font-size: 3.25rem;
+  color: #f6feef;
+  text-align: center;
+}
+
+.formacao-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  margin-top: 120px;
+}
+
+.formacao-texto > p {
+  font-family: Lato;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #f2f2f2;
+}
+
+.cards-row {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.card-form {
+  background-color: #010711;
+  padding: 20px;
+  border-left: 5px solid #ffe70f;
+  border-radius: 5px;
+}
+
+.nivel,
+.escola {
+  font-family: Ubuntu;
+  font-size: 0.875rem;
+  color: #bbbbbb;
+}
+
+.curso {
+  font-family: Ubuntu;
+  font-size: 1.125rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 0 60px;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.cursos {
+  margin-bottom: 40px;
+}
+
+.formacao-outros h3 {
+  font-family: Ubuntu;
+  color: #bbbbbb;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.formacao-outros p {
+  font-family: Lato;
+  color: #f2f2f2;
+  font-size: 1rem;
+}
+
+.formacao-outros span {
+  font-family: Lato;
+  font-size: 1rem;
+  color: #7e7e7e;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+@media (max-width: 1200px) {
+  .formacao-info {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 995px) {
+  .formacao-texto > p {
+    line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 780px) {
+  #formacao{
+    padding: 80px 20px 80px;
+  }
+
+  #formacao h2{
+    font-size: 2rem;
+  }
+
+  .formacao-info {
+    gap: 30px;
+    grid-template-columns: 1fr;
+    margin-top: 80px;
+  }
+
+  .cards-row {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  #formacao{
+    padding: 80px 20px;
+  }
+  .formacao-info{
+    gap: 40px;
+  }
+  .cards-row{
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+@media(max-width: 485px){
+  .formacao-info{
+    margin-top: 40px;
+  }
+}

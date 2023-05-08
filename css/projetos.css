@@ -1,0 +1,177 @@
+#projetos {
+  padding: 0 20px 80px;
+}
+
+.projetos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#projetos h2 {
+  font-family: Ubuntu;
+  font-size: 3.25rem;
+  color: #010711;
+  text-align: center;
+}
+
+.principal {
+  font-family: Lato;
+  padding-top: 80px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.img-bikcraft {
+  height: 300px;
+}
+
+.principal-info h3 {
+  font-family: Lato;
+  font-weight: 800;
+  font-size: 2.25rem;
+}
+
+.principal-info h3::before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 15px;
+  background: linear-gradient(#ffe70f, #ffb412);
+  margin-right: 5px;
+}
+
+.principal-info p {
+  font-family: Lato;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #454545;
+  padding: 5px 0 0 20px;
+  max-width: 62ch;
+}
+
+.outros-projetos {
+  font-family: Lato;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+  padding-top: 60px;
+}
+
+.img-outros {
+  height: 150px;
+}
+
+.outros-projetos h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.outros-projetos h4::before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 15px;
+  background: linear-gradient(#ffe70f, #ffb412);
+  margin-right: 5px;
+}
+
+.outros-projetos p {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  padding-top: 10px;
+  color: #454545;
+  /* max-width: 39ch; */
+}
+
+@media (max-width: 995px) {
+  #projetos h2 {
+    font-size: 2.5rem;
+  }
+
+  .img-bikcraft {
+    height: 250px;
+  }
+
+  .principal-info h3 {
+    font-size: 1.75rem;
+  }
+
+  .principal-info p {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+
+  .img-outros {
+    height: 100px;
+  }
+
+  @media (max-width: 780px) {
+    #projetos h2 {
+      font-size: 2rem;
+    }
+    .principal {
+      gap: 15px;
+    }
+
+    .img-bikcraft {
+      height: 200px;
+    }
+
+    .principal-info h3 {
+      font-size: 1.5rem;
+    }
+
+    .outros-projetos {
+      gap: 40px;
+    }
+
+    .img-outros {
+      height: 80px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .principal {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .img-bikcraft {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .principal-info h3 {
+      font-size: 1.5rem;
+    }
+
+    .principal-info p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    .outros-projetos {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 485px) {
+    .principal {
+      padding-top: 40px;
+    }
+
+    .outros-projetos {
+      grid-template-columns: 1fr;
+      padding-top: 30px;
+      gap: 20px;
+    }
+
+    .outros-projetos div {
+      border-top: 1px solid rgb(243, 243, 243);
+      padding-top: 20px;
+    }
+  }
+}

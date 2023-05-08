@@ -1,0 +1,128 @@
+#habilidades{
+    padding: 120px 20px;
+}
+
+.skills-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#habilidades h2{
+    font-family: Ubuntu;
+    font-size: 3.25rem;
+    color: #010711;
+    text-align: center;
+}
+
+.habilidade-info{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    font-family: Lato;
+}
+
+.habilidade-info > div{
+    width: 100%;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #061A3F;
+}
+
+.skills-grid .number{
+    font-size: .875rem;
+    color: #010711;
+}
+
+.skills-grid p{
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #010711;
+    padding-bottom: 30px;
+}
+
+.tools-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tools{
+    color: #244B8F;
+    padding: 8px 20px;
+    border: 1px solid #244B8F;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+@media(max-width: 995px){
+    #habilidades h2{
+        font-size: 2.5rem;
+    }
+
+    .img-skills{
+        height: 320px;
+    }
+
+    .habilidade-info{
+        gap: 90px;
+    }
+
+    .skills-grid p{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 780px){
+    #habilidades{
+        padding: 60px 20px;
+    }
+    #habilidades h2{
+        font-size: 2rem;
+    }
+
+    .img-skills{
+        height: 250px;
+    }
+
+    .skills-grid{
+        border-top: 1px solid #061A3F;
+    }
+
+    .skills-grid p{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 600px){
+    #habilidades h2{
+        font-size: 2rem;
+    }
+    .habilidade-info{
+        gap: 30px;
+    }
+
+    .img-skills{
+        height: 200px;
+    }
+}
+
+@media(max-width: 485px){
+    .habilidade-info{
+        padding-top: 40px;
+    }
+
+    .skills-grid{
+        border-top: 1px solid #061A3F;
+    }
+
+    .img-skills{
+        display: none;
+    }
+
+}

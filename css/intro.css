@@ -1,0 +1,106 @@
+#intro {
+  background-color: #020f26;
+  padding: 120px 20px;
+}
+
+.intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background: url('../img/ornamento-2.svg') no-repeat top 0px left 0px;
+}
+
+#intro h1 {
+  font-family: Lato;
+  font-size: 4.5rem;
+  line-height: 1.125;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#intro h2 {
+  font-family: Lato;
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 600;
+  color: #d6d6d6;
+}
+
+#intro b {
+  color: #ffe70f;
+}
+
+.img-intro {
+  height: 500px;
+  max-width: 100%;
+  display: block;
+}
+
+@media(max-width: 1200px){
+  #intro h1{
+    font-size: 3.5rem;
+  }
+
+  #intro h2{
+    font-size: 1.8rem;
+  }
+
+  .img-intro{
+    height: 400px;
+  }
+}
+
+@media(max-width: 995px){
+  #intro{
+    padding: 80px 20px;  
+  }
+
+  .intro-container{
+    background: none;
+  }
+
+  #intro h1{
+    font-size: 2.5rem;
+  }
+
+  #intro h2{
+    font-size: 1.5rem;
+  }
+
+  .img-intro{
+    height: 320px;
+  }
+}
+
+@media(max-width: 780px){
+  #intro h1{
+    font-size: 1.875rem;
+  }
+
+  #intro h2{
+    font-size: 1.2rem;
+  }
+
+  .img-intro{
+    height: 250px;
+  }
+}
+
+@media(max-width: 600px){
+  .img-intro{
+    height: 150px;
+  }
+}
+
+@media(max-width: 400px){
+  #intro h1{
+    width: 11ch;
+  }
+
+  .img-intro{
+    display: none;
+  }
+}
